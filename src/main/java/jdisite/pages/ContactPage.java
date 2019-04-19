@@ -5,10 +5,10 @@ import com.epam.jdi.light.elements.pageobjects.annotations.Title;
 import com.epam.jdi.light.elements.pageobjects.annotations.Url;
 import com.epam.jdi.light.elements.pageobjects.annotations.simple.UI;
 import jdisite.sections.ContactForm1;
-import jdisite.sections.ContactForm2;
+import jdisite.sections.ContactForm;
 
 @Url("/contacts") @Title("Contact Form")
 public class ContactPage extends WebPage {
     @UI("#contact-form") public static ContactForm1 contactForm1;
-    @UI("#contact-form") public static ContactForm2 contactForm2;
+    @UI("#contact-form") public static ContactForm contactForm;
 }
