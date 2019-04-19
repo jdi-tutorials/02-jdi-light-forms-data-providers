@@ -1,5 +1,6 @@
 package jdisite;
 
+import com.epam.jdi.light.elements.composite.Form;
 import com.epam.jdi.light.elements.pageobjects.annotations.JSite;
 import com.epam.jdi.light.elements.pageobjects.annotations.simple.UI;
 import com.epam.jdi.light.ui.html.common.Button;
@@ -18,6 +19,7 @@ public class JDISite {
     public static ContactPage contactPage;
 
     public static LoginForm loginForm;
+    public static Form<User> loginForm2;
 
     @UI("img#user-icon") public static Link userIcon;
     @UI("#user-name") public static Text userName;
