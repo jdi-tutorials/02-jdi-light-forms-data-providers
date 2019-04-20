@@ -13,8 +13,8 @@ import static com.jdi.test.data.DefaultDataProvider.SIMPLE_CONTACT;
 import static jdisite.JDISite.contactPage;
 import static jdisite.JDISite.sideMenu;
 import static jdisite.enums.MenuOptions.ContactForm;
-import static jdisite.pages.ContactPage.contactForm1;
 import static jdisite.pages.ContactPage.contactForm;
+import static jdisite.pages.ContactPage.contactForm1;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 

@@ -4,7 +4,6 @@ import com.jdi.TestsInit;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static com.jdi.states.State.loggedIn;
 import static com.jdi.states.State.loggedOut;
 import static com.jdi.test.data.DefaultDataProvider.ROMAN;
 import static jdisite.JDISite.*;
@@ -17,7 +16,7 @@ public class FormExamples implements TestsInit {
     @Test
     public void loginTest() {
         userIcon.click();
-        loginForm2.loginAs(ROMAN);
+        loginForm.loginAs(ROMAN);
         userName.is().displayed();
     }
 }

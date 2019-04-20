@@ -30,6 +30,8 @@ public class DefaultDataProvider {
         c.gender = "Female";
         c.religion = "Other";
         c.weather = "Sun, Snow";
-        c.acceptConditions = "true"; }
+        c.acceptConditions = "true";
+        c.passport = "true";
+        }
     );
 }
