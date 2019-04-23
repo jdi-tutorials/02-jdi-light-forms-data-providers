@@ -6,17 +6,14 @@ import org.testng.annotations.DataProvider;
 public class UsersDataProvider {
 
     public static User ROMAN = new User().set(c -> {
-        c.name = "Roman";
-        c.password = "Jdi1234";}
+        c.name = "Roman"; c.password = "Jdi1234";}
     );
     public static User NO_PASSWORD = new User().set(c -> c.name = "Roman");
     public static User NO_CREDENTIALS = new User().set(c -> {
-        c.name = "";
-        c.password = "";}
+        c.name = ""; c.password = "";}
     );
     public static User WRONG_CREDENTIALS = new User().set(c -> {
-        c.name = "Alex";
-        c.password = "Password";}
+        c.name = "Alex"; c.password = "Password";}
     );
 
     @DataProvider(name = "failedUsers")
