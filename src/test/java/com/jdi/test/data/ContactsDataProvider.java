@@ -2,13 +2,8 @@ package com.jdi.test.data;
 
 import jdisite.entities.ContactInfo1;
 import jdisite.entities.ContactInfo2;
-import jdisite.entities.User;
 
-public class DefaultDataProvider {
-    public static User ROMAN = new User().set(c -> {
-        c.name = "Roman";
-        c.password = "Jdi1234";}
-    );
+public class ContactsDataProvider {
 
     public static ContactInfo1 SIMPLE_CONTACT = new ContactInfo1().set(c -> {
         c.name = "Roman";
