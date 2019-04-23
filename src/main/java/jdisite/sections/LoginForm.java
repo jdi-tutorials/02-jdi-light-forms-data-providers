@@ -9,7 +9,7 @@ import jdisite.entities.User;
 public class LoginForm extends Form<User> {
     @UI("#name") TextField name;
     @UI("#password") TextField password;
-    @UI("#login-button") Button loginButton;
+    @UI("#login-button") Button login;
 
     @Override
     public boolean isHidden() {
